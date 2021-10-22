@@ -1,0 +1,7 @@
+---- &Mci[M1] Matches (6 in 2 files) ----
+main.c (Src) line 27 :  MCI_Handle_t * uMCI = &Mci[M1];
+MCboot in mc_tasks.c (Src) :   MCI_Init(&Mci[M1], &STM[M1], pSTC[M1], &FOCVars[M1] );
+MCboot in mc_tasks.c (Src) :   MCI_ExecSpeedRamp(&Mci[M1],
+MCboot in mc_tasks.c (Src) :   pMCIList[M1] = &Mci[M1];
+TSK_MediumFrequencyTaskM1 in mc_tasks.c (Src) :     MCI_ExecBufferedCommands( &Mci[M1] ); /* Exec the speed ramp after changing of the speed sensor */
+TSK_MediumFrequencyTaskM1 in mc_tasks.c (Src) :     MCI_ExecBufferedCommands( &Mci[M1] );
